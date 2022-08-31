@@ -1,58 +1,67 @@
-
+@import url(https://fonts.google.com/specimen/Archivo+Black);
 body
 {
-    background-color: aqua;
+    background-color: #fff;
     
 }
 .tidiane
 {
-    font-size: medium;
+    padding: 15px;
+    margin: 12px;
+    border: 1px solid black;
     font-family: 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-    border: solid;
-   width: 10%;
+    font-size: 30px;
+    font-style: italic;
     
+    
+
    
 }
 .cheikh
 {
-    font-size: medium;
+    padding: 15px;
+    margin: 12px;
+    border: 1px solid black;
     font-family: 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-    border: solid;
-    width: 10%;
+    font-size: 30px;
+    font-style: italic;
    
-   
-    
-    
-    
+
+
+
 }
+
 .ahmed
 {
-    font-size: medium;
+    padding: 15px;
+    margin: 12px;
+    border: 1px solid black;
     font-family: 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-    border: solid;
-   width: 10%;
-    text-align:center ;
+    font-size: 30px;
+    font-style: italic;
+    
+   
+   
+
+
     
 }
 h1
 {
     text-align: center;
-    color:bisque;
     font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
+
 }
 table
 {
     border-collapse: collapse;
+    size: 100px;
+    height:50px ;
+    padding: 50px;
+    min-width: 50%;
+    
+
     
 }
 td, th 
@@ -62,30 +71,40 @@ td, th
 table
 {
     border-collapse: collapse;
+    height:50px ;
+    padding: 50px;
+    border-spacing: 50%;
+     
 }
 td, th 
 {
     border: 1px solid black;
+    text-align: center;
+    width: 350px;
+    height: 20px;
+    
+
 
 }
-.dev
+
+.fall
+{
+  display:inline;
+ justify-content: center;
+ text-align: center;
+ width: 50%px;
+ height: 30%;
+ 
+ 
+}
+span{;}
+.root
 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    border: 1px solid black;
-    background-color: brown;
-}
-.fall
-{
-  display: flex;
- justify-content: center;
- 
-}
-.root
-{
-   margin: 2%;
-   text-align: center;
+    font-size: larger;
+    color: brown;
+
     
    
 }
@@ -114,16 +133,21 @@ td, th
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
+    
+
 }
 .windows
 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
+    
 }
 .apple 
 {
     text-align: center;
+    color: brown;
+   
 }
 h3{
     text-align: center;
@@ -132,11 +156,92 @@ h3{
 {
     border: 1px solid black;
 }
-.mac 
+header
+{
+    color: white;
+    border-collapse: 1px solid black;
+    background-color: brown;
+    border-radius:  50px;
+    text-shadow: 8px 8px 8px black;
+    
+
+}
+.dev6
+{
+    text-align: center;
+   
+
+
+}
+footer
 {
     border: 1px solid black;
-    background-color: burlywood;
+    background-color: brown;
+
 }
-span{
-    background-color: black;
+td {
+  text-align: center;
+}
+img
+{
+    width:10% ;
+    height: 10%;
+    padding-top: 1%;
+    padding-left:1%;
+    border-radius: 20px;
+}
+.infos
+{
+    color: brown;
+}
+.rootsn
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: end;
+    
+}
+.dev1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: bold;
+    text-decoration: #fff;
+}
+.dev5
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: bold;
+    text-decoration: #fff;
+
+}
+.dev3
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: bold;
+    text-decoration: #fff;
+}
+.dev4
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: bold;
+    text-decoration: #fff;
+}
+.dev2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: bold;
+    text-decoration: #fff;
+}
+.root221
+{
+ text-align: center;
+ 
+ font-size: 40px;
+ font-style: italic;
+ font-weight: 100;
+
+}
+a
+{
+    color: black;
 }
